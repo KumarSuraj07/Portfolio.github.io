@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+.details{
+    border-radius: 50%; 
+    height: 420px; 
+    width: 420px; 
+    margin-left: 90px; 
+    margin-top: -160px;
+    border: 4px solid black;
+    box-shadow: 10px 15px 2px 2px rgba(0, 0, 0, 0.216);
+}
+.tran{
+    margin-left: 73%;
+    padding: 10px;
+    position: absolute;
+    margin-top: -260px;
+    font-size: 30px;
+    /* visibility: hidden; */
+}
+
+/* .tran:hover{
+    transition:0.5s;
+    background-color: black;
+    color: white;
+    border: 2px solid cyan;
+} */
+
+
+
+
+
