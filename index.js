@@ -1,13 +1,13 @@
-// function sendEmail() {
-// 	Email.send({
-// 	Host: "ksurajk2001@gmail.com",
-// 	Username : "<sender’s email address>",
-// 	Password : "<email password>",
-// 	To : '<recipient’s email address>',
-// 	From : "<sender’s email address>",
-// 	Subject : "<email subject>",
-// 	Body : "<email body>",
-// 	}).then(
-// 		message => alert("mail sent successfully")
-// 	);
-// }
+function sendEmail() {
+	Email.send({
+	Host: "smtp.gmail.com",
+	Username : "catchmesuraj111@gmail.com",
+	Password : "Ziddi07ladka",
+	To : 'ksurajk2001@gmail.com',
+	From : document.getElementById("email").value,
+	Subject : "new contact form",
+	Body : "Email: " + document.getElementById("email").value,
+	}).then(
+		message => alert("mail sent successfully")
+	);
+} 
